@@ -41,7 +41,7 @@ function addLink () {
   } else{
     document.getElementById("alert").classList.remove("d-none");
     document.getElementById("close").addEventListener("click",function() {
-      closeAlert();
+      alertCloser();
   })
 
 }
@@ -131,7 +131,7 @@ function validateURL(){
   }
 }
 
-function closeAlert() {
+function alertCloser() {
   document.getElementById("alert").classList.add("d-none");
 
 }
